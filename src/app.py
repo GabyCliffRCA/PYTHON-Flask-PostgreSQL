@@ -9,7 +9,7 @@ app=Flask(__name__)
 
 
 def error_not_found_404(error):
-    return "<h1>ERROR 404 - Page Not Found</h1>", 404
+    return "<h1>ERROR 404 - Not Found</h1>", 404
 
 
 if __name__=='__main__':
